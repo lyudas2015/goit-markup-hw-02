@@ -26,6 +26,30 @@ body {
 }
 /*common styles end*/
 
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--grey-txt-cl); 
+}
+.title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--black-txt-cl);
+}
+.undertitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--black-txt-cl)  
+}
+
 /*Секція Header*/
 
 .header {
@@ -107,63 +131,20 @@ address {
 
 /*Секція Advantages*/
 
-.advantages-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--black-txt-cl);
-}
-
-.advantages-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--grey-txt-cl);
-}
-
 /*Секція About*/
 
-.about-title {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--black-txt-cl);
-}
 /*Секція Team*/
 
 .team {
   background-color: #f4f4fd;
 }
-.team-title {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--black-txt-cl);
-}
+
 .team-name {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--black-txt-cl);
 }
 .team-position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--grey-txt-cl);
-}
+  }
 
 /*Секція Footer*/
 .footer {
@@ -224,18 +205,4 @@ address {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/*Секція Portfolio*/
-.portfolio-img-title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color:var(--black-txt-cl);
-}
-.portfolio-text {
- font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color:var(--grey-txt-cl)
-}
+

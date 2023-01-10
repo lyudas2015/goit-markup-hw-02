@@ -92,6 +92,7 @@ address {
   color: var(--white-txt-cl);
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -209,7 +210,9 @@ address {
 /*Сторінка Portfolio*/
 
 /* Секція Button */
+
 .btn-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -219,6 +222,7 @@ address {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
+
 }
 .btn-button:hover,
 .btn-button:focus {
